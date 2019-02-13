@@ -6,7 +6,8 @@ include('functions.php');
 if (
     !isset($_POST['name']) || $_POST['name']=='' ||
     !isset($_POST['lpw']) || $_POST['lpw']=='' ||
-    !isset($_POST['lid']) || $_POST['lid']==''
+    !isset($_POST['lid']) || $_POST['lid']=='' ||
+     !isset($_POST['kanri_flg']) || $_POST['kanri_flg']==''
 ) {
     exit('ParamError');
 }
